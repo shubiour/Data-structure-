@@ -1,0 +1,17 @@
+import java.util.*;
+public class CustomEXception{
+    
+    public static void main(String ar[]){
+        Scanner sc = new Scanner(System.in);
+        int a =sc.nextInt();
+        try{
+            if(a<10){
+                MyException b = new MyException ();
+                throw b;
+            }
+        }
+        catch(Exception e){
+            System.out.println("It's a ArithmeticException");
+        }
+    }
+}

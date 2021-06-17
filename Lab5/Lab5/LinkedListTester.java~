@@ -1,0 +1,4 @@
+public class LinkedListTester{
+  public static void main(String [] args){
+    Object [] a1 = {10,20,30,40,50,60,70,80,90};
+    LinkedList h1 = new LinkedList(a1);

@@ -1,0 +1,13 @@
+public class MyEXception{
+    public static void main(String ar[]){
+    int a =56;
+    
+    if(a<10){
+    ArithmeticException b = new ArithmeticException();
+    throw b;
+    }
+    catch(Exception e){
+    System.out.println("It's a ArithmeticException");
+    }
+    }
+}
